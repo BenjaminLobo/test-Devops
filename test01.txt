@@ -1,0 +1,73 @@
+command history
+    1  sudo vi /etc/apt/apt.conf
+    2  sudo add-apt-repository -y ppa:ubuntu-desktop/ubuntu-make
+    3  dbit
+    4  sudo apt-get update
+    5  sudo apt-get install -y ubuntu-make
+    6  sudo umake ide pycharm
+    7  ping 10.0.1.1
+    8  ls
+    9  ghci
+   10  ls
+   11  cd Desktop/
+   12  ls
+   13  ghci abhay.hs
+   14  ls
+   15  ghci abhay.hs
+   16  :q
+   17  ls -al
+   18  git config --list
+   19  ls
+   20  mkdir test02
+   21  ls
+   22  cd test02
+   23  ls
+   24  git init
+   25  git remote add origin git@github.com:BenjaminLobo/Test02.git
+   26  git branch -M main
+   27  touch hello.py
+   28  git status
+   29  git add .
+   30  git status
+   31  git commit -m "add hello.py"
+   32  git config --global user.name "BenjaminLobo"
+   33  git config --global user.email "bvlobo2002@gmail.com"
+   34  git commit -m "add hello.py"
+   35  git log
+   36  git status
+   37  git remote -v
+   38  git push -u origin main
+   39  git push -u origin master
+   40  git remote origin main git remote add origin https://github.com/BenjaminLobo/Test02.git
+   41  git remote add origin https://github.com/BenjaminLobo/Test02.git
+   42  git remote rm origin
+   43  git remote add origin https://github.com/BenjaminLobo/Test02.git
+   44  git push -u origin main
+   45  git push -u origin master
+   46  git add py.py
+   47  git status
+   48  git add hello.py
+   49  git status
+   50  git commit -m "changes done"
+   51  git push -u origin master
+   52  command history
+   53  git init
+   54  touch test.py
+   55  git add.
+   56  git add test.py
+   57  git status
+   58  git commit -m "new file"
+   59  git status
+   60  git push -u origin master
+   61  git status
+   62  git remote add origin https://github.com/BenjaminLobo/test-Devops.git
+   63  git status
+   64  touch test01.txt
+   65  git add.
+   66  git add test01.txt
+   67  git status
+   68  git commit -m "add"
+   69  git push -u origin master
+   70  git status
+   71  command history
+
